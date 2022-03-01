@@ -1,7 +1,10 @@
 ---
 name: Super-Linter
 
-on: [push, fork, workflow_dispatch]
+on: 
+  push:
+  fork:
+  workflow_dispatch:
 
 jobs:
   super-linter:
